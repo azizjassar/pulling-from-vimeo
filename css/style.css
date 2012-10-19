@@ -48,7 +48,34 @@ input, select { vertical-align:middle; }
 /* END RESET CSS */
 
 /*======================= Main ====================================*/
+h1 {
+	font-size:30px;
+	line-height:36px;
+	padding:30px 0 10px 0;
+}
+h2 {
+	font-size:20px;
+	line-height:20px;
+	padding:0 0 5px 0;
+}
+p {
+	font-size:14px;
+	line-height:14px;
+	padding:0 0 5px 0;
+}
 #wrapper {
-	width:960px;
+	width:640px;
 	margin:0 auto;
+}
+.videoBlock {
+	width:100%;
+	overflow:hidden;
+	margin:20px 0 20px 0;
+}
+.videoBlock img {
+	float:left;
+	margin:3px 20px 0 0;
+}
+.description {
+	overflow:hidden;
 }
